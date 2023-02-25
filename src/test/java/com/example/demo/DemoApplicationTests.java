@@ -27,6 +27,7 @@ class DemoApplicationTests {
 	@Test
 	void testD() {
 		System.out.println("Test D auto con el script? b");
+		System.out.println("PRUYEBA ");
 		Assertions.assertEquals(1, 1);
 	}
 
