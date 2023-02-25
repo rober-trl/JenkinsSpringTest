@@ -11,5 +11,11 @@ class DemoApplicationTests {
 	void testA() {
 		Assertions.assertEquals(2, 2);
 	}
+	
+	@Test
+	void testB() {
+		System.out.println("Test B");
+		Assertions.assertEquals(1, 1);
+	}
 
 }
