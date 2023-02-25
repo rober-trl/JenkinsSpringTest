@@ -36,6 +36,7 @@ pipeline {
             steps {
                 echo "TODO aun"
                 echo "HOLA 2"
+                sh "mvn spring-boot:run"
             }
         }
     }
