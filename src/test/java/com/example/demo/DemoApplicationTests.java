@@ -17,5 +17,11 @@ class DemoApplicationTests {
 		System.out.println("Test B");
 		Assertions.assertEquals(1, 1);
 	}
+	
+	@Test
+	void testC() {
+		System.out.println("Test C solo");
+		Assertions.assertEquals(1, 1);
+	}
 
 }
