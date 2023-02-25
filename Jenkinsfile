@@ -35,6 +35,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo "TODO aun"
+                echo "HOLA 2"
             }
         }
     }
