@@ -34,7 +34,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-				echo "PUlling " + env.BRANCH_NAME                
+				echo "PUlling " + ${env.BRANCH_NAME}                
                 //sh "mvn spring-boot:run"
                 sh "whoami"
                 //sh "cp target/*war /home/webapps/"
