@@ -37,7 +37,8 @@ pipeline {
                 echo "TODO aun"
                 echo "HOLA 2"
                 //sh "mvn spring-boot:run"
-                sh "ssh root@5.75.142.74 'ls'"
+                sh "cp target/*war /var/webapps/ROOT.war"
+                
             }
         }
     }
