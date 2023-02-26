@@ -10,6 +10,6 @@ public class Prueba {
 
 	@GetMapping
 	public String prueba() {
-		return "HOLA";
+		return "HOLA automatica";
 	}
 }
