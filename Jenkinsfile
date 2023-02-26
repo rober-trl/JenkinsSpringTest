@@ -37,6 +37,7 @@ pipeline {
                 echo "TODO aun"
                 echo "HOLA 2"
                 //sh "mvn spring-boot:run"
+                sh "whoami"
                 sh "cp target/*war /home/webapps/ROOT.war"
                 
             }
