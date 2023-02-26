@@ -22,9 +22,9 @@ pipeline {
             post {
                 // If Maven was able to run the tests, even if some of the test
                 // failed, record the test results and archive the jar file.
-                success {
-                    archiveArtifacts 'target/*.war'
-                }
+                //success {
+                //    archiveArtifacts 'target/*.war'
+                //}
             }
         }
         stage('Test') {
@@ -34,11 +34,10 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                echo "TODO aun"
-                echo "HOLA 2"
+				echo "PUlling " + env.BRANCH_NAME                
                 //sh "mvn spring-boot:run"
                 sh "whoami"
-                sh "cp target/*war /home/webapps/"
+                //sh "cp target/*war /home/webapps/"
                 
             }
         }
